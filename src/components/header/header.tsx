@@ -6,24 +6,68 @@ export interface HeaderProps {
 
 export const Header = component$<HeaderProps>((props) => {
   return (
-    <div>
-          <nav class="z-10">
-        <ul class="sticky flex flex-row items-center px-6 py-4 text-indigo-100 bg-indigo-900 rounded-lg">
-            <li class="pr-8">
-                <a href="/">Home</a>
-            </li>
-            <li class="pr-8">
-                <a href="" target="_blank">FAQ</a>
-            </li>
-            <li class="pr-8">
-                <a href="" target="_blank">Pricing</a>
-            </li>
-            <li class="text-red-200">
-                <a href="" class="ml-2">Email</a>
-                w
-            </li>
-        </ul>
-    </nav>
+    <nav>
+    <div class="overflow-hidden">
+      <div class="flex justify-between h-16 px-10 shadow items-center sticky bg-black">
+        <div class="flex items-center space-x-8">
+          <h1 class="text-xl lg:text-2xl font-bold cursor-pointer text-white">Tailwind</h1>
+          <div class="hidden md:flex justify-around space-x-5">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <a href="#" class="hover:text-indigo-600 text-white">Home</a>
+            <a href="#" class="hover:text-indigo-600 text-white">Prices</a>
+            <a href="/faq/" class="hover:text-indigo-600 text-white">FAQ</a>
+            <a href="https://dash.mineworldhost.com/" class="hover:text-indigo-600 text-white">Dashboard</a>
+            <a href="https://panel.mineworldhost.com/" class="hover:text-indigo-600 text-white">Panel</a>
+            </div>
+        </div>
+        <div class="flex space-x-4 items-center">
+        </div>
+      </div>
     </div>
+  </nav>
   );
 });
