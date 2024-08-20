@@ -14,7 +14,7 @@ export const Header = component$<HeaderProps>((props) => {
           <div class="grow"></div>
           <div class="ml-auto hidden md:flex justify-around space-x-5 mt-5">
             <a href="#" class="hover:text-indigo-600 text-white">Home</a>
-            <a href="#" class="hover:text-indigo-600 text-white">Prices</a>
+            <a href="/prices/" class="hover:text-indigo-600 text-white">Prices</a>
             <a href="/faq/" class="hover:text-indigo-600 text-white">FAQ</a>
             <a href="https://dash.mineworldhost.com/" class="hover:text-indigo-600 text-white">Dashboard</a>
             <a href="https://panel.mineworldhost.com/" class="hover:text-indigo-600 text-white">Panel</a>
