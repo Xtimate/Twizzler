@@ -16,7 +16,7 @@ export const Faq = component$<FaqProps>((props) => {
         Lorem ipsum dolor sit amet consectetur adipisicing?
       </h2>
 
-      <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+      <span class="shrink-0 rounded-full p-1.5 text-gray-900 sm:p-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="size-5 shrink-0 transition duration-300 group-open:-rotate-45"

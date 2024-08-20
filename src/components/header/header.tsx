@@ -7,56 +7,12 @@ export interface HeaderProps {
 export const Header = component$<HeaderProps>((props) => {
   return (
     <nav>
-    <div class="overflow-hidden">
-      <div class="flex justify-between h-16 px-10 shadow items-center sticky bg-black">
+    <div class="sticky overflow-hidden top-0">
+      <div class="justify-between h-16 px-10 shadow items-center sticky bg-black mt">
         <div class="flex items-center space-x-8">
-          <h1 class="text-xl lg:text-2xl font-bold cursor-pointer text-white">Tailwind</h1>
-          <div class="hidden md:flex justify-around space-x-5">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+          <h1 class="text-xl lg:text-2xl font-bold cursor-pointer text-white mt-4">Tailwind</h1>
+          <div class="grow"></div>
+          <div class="ml-auto hidden md:flex justify-around space-x-5 mt-5">
             <a href="#" class="hover:text-indigo-600 text-white">Home</a>
             <a href="#" class="hover:text-indigo-600 text-white">Prices</a>
             <a href="/faq/" class="hover:text-indigo-600 text-white">FAQ</a>
