@@ -6,7 +6,7 @@ export interface PricesProps {
 
 export const Prices = component$<PricesProps>((props) => {
   return (
-  <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+  <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 mt-10">
     <div class="mb-10 space-y-4 px-6 md:px-0">
       <h2 class="text-center text-2xl font-bold text-white sm:text-3xl md:text-4xl">Pricing</h2>
     </div>
