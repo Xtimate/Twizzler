@@ -7,8 +7,8 @@ export interface HeaderProps {
 export const Header = component$<HeaderProps>((props) => {
   return (
     <nav>
-    <div class="sticky overflow-hidden top-0">
-      <div class="justify-between h-16 px-10 shadow items-center sticky bg-black mt">
+    <div class="flex overflow-hidden top-0">
+      <div class="justify-between h-16 px-10 shadow items-center sticky bg-transparant mt">
         <div class="flex items-center space-x-8">
           <h1 class="text-xl lg:text-2xl font-bold cursor-pointer text-white mt-4">MineWorldHost</h1>
           <div class="grow"></div>

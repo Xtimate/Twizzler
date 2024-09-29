@@ -16,7 +16,7 @@ export const Cards = component$<CardsProps>((props) => {
     </p>
   </div>
 
-  <dl class="mt-6 grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4">
+  <dl class="mt-6 grid grid-rows-2 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4">
     <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
       <dt class="order-last text-lg font-medium text-gray-500">Total Sales</dt>
 
@@ -40,7 +40,17 @@ export const Cards = component$<CardsProps>((props) => {
 
       <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">86k</dd>
     </div>
-  </dl>
-</div>
+    <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
+      <dt class="order-last text-lg font-medium text-gray-500">Total Sales</dt>
+
+      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">$4.8m</dd>
+    </div>
+    <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
+      <dt class="order-last text-lg font-medium text-gray-500">Total Sales</dt>
+
+      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">$4.8m</dd>
+    </div>
+    </dl>
+  </div>
   );
 });
