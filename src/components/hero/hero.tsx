@@ -6,7 +6,7 @@ export interface HeroProps {
 
 export const Hero = component$<HeroProps>((props) => {
   return (
-    <div class="relative isolate overflow-hidden bg-gray-900">
+    <div class="relative isolate overflow-hidden bg-gray-900 scroll-smooth z-10">
   <svg
     class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
     aria-hidden="true">
@@ -39,11 +39,6 @@ export const Hero = component$<HeroProps>((props) => {
         <span class="text-sky-500">host</span>
       </h1>
       <p class="mt-6 text-lg leading-8 text-gray-300">The best Minecraft Host you could imagine!</p>
-      <div class="mt-5 flex items-center justify-center gap-x-6">
-        <a href="/"
-          class="rounded-md bg-sky-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-400"
-          rel="noreferrer">Try Now →</a>
-      </div>
     </div>
   </div>
 </div>

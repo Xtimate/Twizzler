@@ -7,50 +7,47 @@ export interface CardsProps {
 export const Cards = component$<CardsProps>((props) => {
   return (
 <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 bg-[#111827]">
-  <div class="mx-auto max-w-3xl text-center">
-    <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Trusted by eCommerce Businesses</h2>
+<div>
+  <dl class="flex flex-wrap flex-row gap-4 sm:grid-cols-3 lg:grid-cols-4">
+    <div class="flex flex-col flex-1 rounded-lg bg-blue-950/20 px-4 py-8 text-center">
+      <dt class="order-last text-lg font-medium text-white">For the best experience, we only use the latest Ryzen processors available.</dt>
 
-    <p class="mt-4 text-gray-500 sm:text-xl">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore
-      provident impedit esse recusandae facere libero harum sequi.
-    </p>
-  </div>
-
-  <dl class="mt-6 grid grid-rows-2 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4">
-    <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
-      <dt class="order-last text-lg font-medium text-gray-500">Total Sales</dt>
-
-      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">$4.8m</dd>
+      <dd class="text-4xl k font-extrabold text-blue-600 md:text-5xl">Fast Processors</dd>
     </div>
 
-    <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
-      <dt class="order-last text-lg font-medium text-gray-500">Official Addons</dt>
+    <div class="flex flex-col flex-1 rounded-lg bg-blue-950/20 px-4 py-8 text-center">
+      <dt class="order-last text-lg font-medium text-white">Thanks to NeoProtect all game servers are protected from DDoS attacks.</dt>
 
-      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">24</dd>
+      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">DDoS Protection</dd>
     </div>
 
-    <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
-      <dt class="order-last text-lg font-medium text-gray-500">Total Addons</dt>
+    <div class="flex flex-col flex-1 rounded-lg bg-blue-950/20 px-4 py-8 text-center">
+      <dt class="order-last text-lg font-medium text-white">Your Minecraft server will be set up in seconds after payment, truly rapid.</dt>
 
-      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">86</dd>
+      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">Instant Setup</dd>
     </div>
+    <dl class=" flex flex-wrap flex-row gap-4 sm: sm:grid-cols-3 lg:grid-cols-4">
 
-    <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
-      <dt class="order-last text-lg font-medium text-gray-500">Downloads</dt>
+    <div class="flex flex-col flex-1 rounded-lg bg-blue-950/20 px-4 py-8 text-center">
+      <dt class="order-last text-lg font-medium text-white">We are rated 4.7/5 on TrustPilot, making us one of the best hosting solutions.</dt>
 
-      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">86k</dd>
+      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">Highly Reviewed</dd>
     </div>
-    <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
-      <dt class="order-last text-lg font-medium text-gray-500">Total Sales</dt>
+    <div class="flex flex-col flex-1 rounded-lg bg-blue-950/20 px-4 py-8 text-center">
+      <dt class="order-last text-lg font-medium text-white">Our game servers utilize the latest and fastest SSD NVMe technology available.</dt>
 
-      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">$4.8m</dd>
+      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">Fast SSD NVMe Storage</dd>
     </div>
-    <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
-      <dt class="order-last text-lg font-medium text-gray-500">Total Sales</dt>
+    <div class="flex flex-col flex-1 rounded-lg bg-blue-950/20 px-4 py-8 text-center">
+      <dt class="order-last text-lg font-medium text-white">Our dedicated staff team is always ready to assist you.</dt>
 
-      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">$4.8m</dd>
+      <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">Support 24/7</dd>
+      <dl/>
     </div>
     </dl>
+    </dl>
   </div>
+  </div>
+
   );
 });
